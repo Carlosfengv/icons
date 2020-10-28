@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Check = props => {
+const Pause = props => {
   const { color, size, ...otherProps } = props;
   return (
     <svg
@@ -15,20 +15,20 @@ const Check = props => {
       <path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M9.375 15.624L19 6l1.414 1.414L9.375 18.453 4 13.078l1.414-1.415 3.961 3.961z"
+        d="M5 4h4.667v16H5V4zm9.333 0H19v16h-4.667V4z"
       ></path>
     </svg>
   );
 };
 
-Check.propTypes = {
+Pause.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
-Check.defaultProps = {
+Pause.defaultProps = {
   color: 'currentColor',
   size: '24'
 };
 
-export default Check;
+export default Pause;
