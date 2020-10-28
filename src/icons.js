@@ -8,3 +8,7 @@ export { default as Minimize } from './icons/Minimize';
 export { default as Start } from './icons/Start';
 export { default as Stop } from './icons/Stop';
 export { default as Pause } from './icons/Pause';
+export { default as ChevronDown } from './icons/Chevron-Down';
+export { default as CaretRight } from './icons/Caret-Right';
+export { default as CaretUp } from './icons/Caret-Up';
+export { default as CaretDown } from './icons/Caret-Down';
