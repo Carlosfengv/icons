@@ -1,6 +1,6 @@
 {
   "name": "kubeicons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "KubeDesign Icons",
   "main": "dist/index.js",
   "typings": "dist/icons.d.ts",
