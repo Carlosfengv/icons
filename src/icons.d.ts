@@ -17,3 +17,7 @@ export const Minimize: Icon;
 export const Start: Icon;
 export const Stop: Icon;
 export const Pause: Icon;
+export const ChevronDown: Icon;
+export const CaretRight: Icon;
+export const CaretUp: Icon;
+export const CaretDown: Icon;
